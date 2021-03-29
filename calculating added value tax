@@ -1,0 +1,20 @@
+# 부가세 계산하기
+# 8000원자리 점심 부가세
+init_lunch = 8000
+print(init_lunch)
+
+lunch_ad = init_lunch / 1.1  # 8000원 점심 값을 1.1로 나눈 결과 값을 lunch_ad에 할당
+print(lunch_ad)
+
+lunch_ad_rd = round(lunch_ad)
+print(lunch_ad_rd)
+# added-value tax
+advt = init_lunch - lunch_ad_rd
+print(advt)
+
+advt2 = round(init_lunch * (1 / 11))
+print(advt2)
+
+print(1 / 11)
+print(8000 * (1 / 11))
+print(round(8000 * (1 / 11)))
